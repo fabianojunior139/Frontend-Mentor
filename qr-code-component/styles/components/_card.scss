@@ -1,0 +1,41 @@
+@import '../abstract/variables';
+
+.card {
+    background-color: $color-White;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 320px;
+    border-radius: 1rem;
+
+    &__image {
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+
+    &__title {
+        color: $color-DarkBlue;
+        margin-top: 1rem;
+        padding: 0 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    &__description {
+        font-weight: 400;
+        color: $color-GrayishBlue;
+        text-align: center;
+        padding: 1.25rem;
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+.attribution {
+    color: $color-DarkBlue;
+    font-size: 0.75rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0.25rem;
+}

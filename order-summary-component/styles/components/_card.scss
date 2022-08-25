@@ -1,0 +1,100 @@
+@import '../abstract/variables';
+
+.card {
+    max-width: 375px;
+    background-color: $color-White;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+
+    &__image {
+        width: 100%;
+        border-radius: 1.25rem 1.25rem 0 0;
+    }
+
+    &__content {
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: 900;
+        font-size: 1.25rem;
+        color: $color-DarkBlue;
+    }
+
+    &__description {
+        color: $color-DesaturedBlue;
+        font-weight: 400;
+        padding: 0 1.25rem;
+    }
+
+    &__offers {
+        background-color: $color-VeryPaleBlue;
+        border-radius: 1rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        line-height: 1.25rem;
+        margin: 1.5rem 0;
+    }
+
+    &__numbers {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+
+    &__plan {
+        font-weight: 900;
+        color: $color-DarkBlue;
+    }
+
+    &__price {
+        color: $color-DesaturedBlue;
+    }
+
+    &__change-plan {
+        font-weight: 700;
+
+        &:hover {
+            text-decoration: none;
+            color: $color-PurpleHover;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__button-payment {
+        @include button();
+        margin-bottom: 0.25rem;
+        color: $color-White;
+        background-color: $color-BrightBlue;
+        box-shadow: 0px 15px 15px $color-BlueShadow;
+
+        &:hover {
+            background-color: $color-PurpleHover;
+        }
+    }
+
+    &__button-cancel {
+        @include button();
+        color: $color-DesaturedBlue;
+
+        &:hover {
+            color: $color-DarkBlue;
+        }
+    }
+}
+
+.attribution {
+    font-size: 0.75rem;
+    position: fixed;
+    bottom: 0.25rem;
+}
