@@ -6,4 +6,4 @@ This repository contains [Frontend Mentor](https://www.frontendmentor.io/challen
 
 | No. | Project name and link                                                                             | Repository |
 | --- | ------------------------------------------------------------------------------------------------- | ---- |
-| 1   | [NTF Card Component](https://github.com/fabianojunior1/Frontend-Mentor/tree/main/nft-preview-card-component)         | [Link to GitHub repo](https://github.com/fabianojunior1/Frontend-Mentor/tree/main/nft-preview-card-component) |
+| 1   | [NTF Card Component](https://fabianojunior1.github.io/Frontend-Mentor/nft-preview-card-component/)| [Link to GitHub repo](https://github.com/fabianojunior1/Frontend-Mentor/tree/main/nft-preview-card-component) |
