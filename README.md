@@ -1,6 +1,6 @@
 # 💻 Frontend Mentor Challenges
 
-This repository contains all [Frontend Mentor](https://www.frontendmentor.io/challenges) challenges projects that I finished.
+This repository contains all [Frontend Mentor](https://www.frontendmentor.io/challenges) challenges projects that I finished
 
 ## 📃 Projects
 
