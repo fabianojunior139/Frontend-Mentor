@@ -1,0 +1,124 @@
+@import '../abstract/variables';
+
+body {
+    background-color: $color-DarkBlueI;
+    font-family: $Outfit;
+}
+
+.card {
+    margin: 4rem 2rem;
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: $color-DarkBlueII;
+    border-radius: 0.5rem;
+
+    &__image {
+        width: 100%;
+        border-radius: 0.5rem;
+        position: relative;
+
+        * {
+            border-radius: 0.5rem;
+        }
+
+        img {
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background-color: hsla(178, 100%, 50%, 0.5);
+            opacity: 0;
+            display: grid;
+            place-content: center;
+            transition: opacity 200ms ease-in-out;
+
+            img {
+                width: 3rem;
+                height: 2rem;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__title {
+        padding: 1rem 0px;
+        color: $color-White;
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.3s;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-Cyan;
+            cursor: pointer;
+        }
+    }
+
+    &__description {
+        margin: 0;
+        color: $color-SoftBlue;
+        font-weight: 300;
+    }
+
+    &__informations {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0px;
+        border-bottom: 1px solid $color-DarkBlueIII;
+    }
+
+    &__price {
+        color: $color-Cyan;
+        margin-left: 0.25rem;
+        font-weight: 600;
+    }
+
+    &__days {
+        color: $color-SoftBlue;
+        font-weight: 300;
+    }
+
+    &__avatar {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__avatar-image {
+        width: 10%;
+        border: 1px solid $color-White;
+        border-radius: 50%;
+        margin-right: 1rem;
+    }
+
+    &__creator {
+        color: $color-SoftBlue;
+        font-weight: 300;
+
+        &-name {
+            color: $color-White;
+            font-weight: 300;
+            transition: 0.3s;
+            text-decoration: none;
+
+            &:hover {
+                cursor: pointer;
+                color: $color-Cyan;
+            }
+        }
+    }
+
+}
