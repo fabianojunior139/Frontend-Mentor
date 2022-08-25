@@ -23,11 +23,13 @@ body {
   padding: 1.5rem;
   background-color: hsl(216deg, 50%, 16%);
   border-radius: 0.5rem;
+  box-shadow: 10px 5px 20px hsl(217deg, 51%, 9%);
 }
 .card__image {
   width: 100%;
   border-radius: 0.5rem;
   position: relative;
+  cursor: pointer;
 }
 .card__image * {
   border-radius: 0.5rem;
@@ -48,10 +50,6 @@ body {
   display: grid;
   place-content: center;
   transition: opacity 200ms ease-in-out;
-}
-.card__image .overlay img {
-  width: 3rem;
-  height: 2rem;
 }
 .card__image .overlay:hover {
   opacity: 1;

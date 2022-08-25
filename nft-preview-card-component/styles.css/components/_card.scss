@@ -14,11 +14,13 @@ body {
     padding: 1.5rem;
     background-color: $color-DarkBlueII;
     border-radius: 0.5rem;
+    box-shadow: 10px 5px 20px $color-DarkBlueI-shadow;
 
     &__image {
         width: 100%;
         border-radius: 0.5rem;
         position: relative;
+        cursor: pointer;
 
         * {
             border-radius: 0.5rem;
@@ -35,16 +37,11 @@ body {
             top: 0;
             left: 0;
             z-index: 1;
-            background-color: hsla(178, 100%, 50%, 0.5);
+            background-color: $color-Cyan-light;
             opacity: 0;
             display: grid;
             place-content: center;
             transition: opacity 200ms ease-in-out;
-
-            img {
-                width: 3rem;
-                height: 2rem;
-            }
 
             &:hover {
                 opacity: 1;
@@ -120,5 +117,4 @@ body {
             }
         }
     }
-
 }
