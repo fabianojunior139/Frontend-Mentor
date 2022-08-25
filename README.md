@@ -8,4 +8,4 @@ GitHub landing page: [https://elaineleung.github.io/frontendmentor/](https://ela
 
 | No. | Project name and link                                                                             | Repository |
 | --- | ------------------------------------------------------------------------------------------------- | ---- |
-| 1   | [Order summary card component](https://elaineleung.github.io/frontendmentor/ordersummary)         | [Link to GitHub repo]() |
+| 1   | [NTF Card Component](https://github.com/fabianojunior1/Frontend-Mentor/tree/main/nft-preview-card-component)         | [Link to GitHub repo](https://github.com/fabianojunior1/Frontend-Mentor/tree/main/nft-preview-card-component) |
