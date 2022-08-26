@@ -76,6 +76,18 @@ body {
         border-bottom: 1px solid $color-DarkBlueIII;
     }
 
+    &__ethereum {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__clock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     &__price {
         color: $color-Cyan;
         margin-left: 0.25rem;
@@ -85,6 +97,7 @@ body {
     &__days {
         color: $color-SoftBlue;
         font-weight: 300;
+        margin-left: 0.25rem;
     }
 
     &__avatar {
@@ -110,6 +123,7 @@ body {
             font-weight: 300;
             transition: 0.3s;
             text-decoration: none;
+            margin-left: 0.25rem;
 
             &:hover {
                 cursor: pointer;

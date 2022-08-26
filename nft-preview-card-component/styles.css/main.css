@@ -9,6 +9,10 @@ body {
   align-items: center;
 }
 
+h1 {
+  display: none;
+}
+
 body {
   background-color: hsl(217deg, 54%, 11%);
   font-family: "Outfit", sans-serif;
@@ -77,6 +81,16 @@ body {
   padding: 1rem 0px;
   border-bottom: 1px solid hsl(215deg, 32%, 27%);
 }
+.card__ethereum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card__price {
   color: hsl(178deg, 100%, 50%);
   margin-left: 0.25rem;
@@ -85,6 +99,7 @@ body {
 .card__days {
   color: hsl(215deg, 51%, 70%);
   font-weight: 300;
+  margin-left: 0.25rem;
 }
 .card__avatar {
   padding-top: 1rem;
@@ -107,6 +122,7 @@ body {
   font-weight: 300;
   transition: 0.3s;
   text-decoration: none;
+  margin-left: 0.25rem;
 }
 .card__creator-name:hover {
   cursor: pointer;
