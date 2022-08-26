@@ -76,6 +76,10 @@ body {
   font-weight: 700;
   font-size: 1rem;
   border: none;
+  cursor: pointer;
+}
+.card__button:hover {
+  background-color: hsl(160deg, 53%, 15%);
 }
 .card__button-icon {
   margin-right: 0.5rem;

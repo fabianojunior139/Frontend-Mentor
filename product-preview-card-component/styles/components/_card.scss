@@ -68,6 +68,11 @@
         font-weight: 700;
         font-size: 1rem;
         border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $color-VeryDarkCyan;
+        }
 
         &-icon {
             margin-right: 0.5rem;
