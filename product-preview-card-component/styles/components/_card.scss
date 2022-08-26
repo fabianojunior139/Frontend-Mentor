@@ -1,0 +1,100 @@
+@import '../abstract/variables';
+
+.card {
+    @include flex();
+    max-width: 350px;
+    background-color: $color-White;
+    border-radius: 0.75rem;
+    margin: 1rem;
+
+    &__image-mobile {
+        width: 100%;
+        border-radius: 0.75rem 0.75rem 0 0;
+    }
+
+    &__image-desktop {
+        display: none;
+    }
+
+    &__content {
+        padding: 1.5rem;
+    }
+
+    &__category {
+        color: $color-GrayishBlue;
+        letter-spacing: 0.25rem;
+    }
+
+    &__title {
+        font-family: $font-Fraunces;
+        font-weight: 700;
+        color: $color-DarkBlue;
+        font-size: 2rem;
+        line-height: 2rem;
+        margin: 1rem 0;
+    }
+
+    &__description {
+        font-weight: 400;
+        color: $color-GrayishBlue;
+        line-height: 1.25rem;
+    }
+
+    &__prices {
+        @include flex();
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 1rem 0;
+    }
+
+    &__price {
+        font-family: $font-Fraunces;
+        font-size: 2rem;
+        margin-right: 1rem;
+        color: $color-DarkCyan;
+
+        &-old {
+            color: $color-GrayishBlue;
+            text-decoration: line-through;
+        }
+    }
+
+    &__button {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.6rem;
+        background-color: $color-DarkCyan;
+        color: $color-White;
+        font-weight: 700;
+        font-size: 1rem;
+        border: none;
+
+        &-icon {
+            margin-right: 0.5rem;
+        }
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        flex-direction: row;
+        max-width: 550px; 
+
+        &__image-desktop {
+            display: inline;
+            width: 50%;
+            border-radius: 0.75rem 0 0 0.75rem;
+        }
+
+        &__image-mobile {
+            display: none;
+        }
+    }
+}
+
+.attribution {
+    font-size: 0.75rem;
+    position: fixed;
+    bottom: 0.5rem;
+}

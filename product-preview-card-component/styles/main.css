@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30deg, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 350px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0.75rem;
+  margin: 1rem;
+}
+.card__image-mobile {
+  width: 100%;
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+.card__image-desktop {
+  display: none;
+}
+.card__content {
+  padding: 1.5rem;
+}
+.card__category {
+  color: hsl(228deg, 12%, 48%);
+  letter-spacing: 0.25rem;
+}
+.card__title {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: hsl(212deg, 21%, 14%);
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+}
+.card__description {
+  font-weight: 400;
+  color: hsl(228deg, 12%, 48%);
+  line-height: 1.25rem;
+}
+.card__prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+.card__price {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: hsl(158deg, 36%, 37%);
+}
+.card__price-old {
+  color: hsl(228deg, 12%, 48%);
+  text-decoration: line-through;
+}
+.card__button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  background-color: hsl(158deg, 36%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+}
+.card__button-icon {
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex-direction: row;
+    max-width: 550px;
+  }
+  .card__image-desktop {
+    display: inline;
+    width: 50%;
+    border-radius: 0.75rem 0 0 0.75rem;
+  }
+  .card__image-mobile {
+    display: none;
+  }
+}
+.attribution {
+  font-size: 0.75rem;
+  position: fixed;
+  bottom: 0.5rem;
+}/*# sourceMappingURL=main.css.map */

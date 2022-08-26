@@ -1,0 +1,18 @@
+//colors variables
+
+$color-DarkCyan: hsl(158, 36%, 37%);
+$color-Cream: hsl(30, 38%, 92%);
+$color-DarkBlue: hsl(212, 21%, 14%);
+$color-GrayishBlue: hsl(228, 12%, 48%);
+$color-White: hsl(0, 0%, 100%);
+
+//fonts variables
+$font-Fraunces: 'Fraunces', serif;
+$font-Montserrat: 'Montserrat', sans-serif;
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
