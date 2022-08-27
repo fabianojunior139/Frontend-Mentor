@@ -8,7 +8,8 @@
     margin: 1rem;
 
     &__image-mobile {
-        width: 100%;
+        display: block;
+        max-width: 100%;
         border-radius: 0.75rem 0.75rem 0 0;
     }
 
@@ -87,8 +88,8 @@
         max-width: 550px; 
 
         &__image-desktop {
-            display: inline;
-            width: 50%;
+            display: block;
+            max-width: 50%;
             border-radius: 0.75rem 0 0 0.75rem;
         }
 
@@ -101,5 +102,5 @@
 .attribution {
     font-size: 0.75rem;
     position: fixed;
-    bottom: 0.5rem;
+    bottom: 0.25rem;
 }

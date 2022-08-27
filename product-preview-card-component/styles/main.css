@@ -22,7 +22,8 @@ body {
   margin: 1rem;
 }
 .card__image-mobile {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   border-radius: 0.75rem 0.75rem 0 0;
 }
 .card__image-desktop {
@@ -91,8 +92,8 @@ body {
     max-width: 550px;
   }
   .card__image-desktop {
-    display: inline;
-    width: 50%;
+    display: block;
+    max-width: 50%;
     border-radius: 0.75rem 0 0 0.75rem;
   }
   .card__image-mobile {
@@ -102,5 +103,5 @@ body {
 .attribution {
   font-size: 0.75rem;
   position: fixed;
-  bottom: 0.5rem;
+  bottom: 0.25rem;
 }/*# sourceMappingURL=main.css.map */

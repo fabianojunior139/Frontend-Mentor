@@ -23,13 +23,13 @@ body {
   border-radius: 1rem;
 }
 .card__image {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   border-radius: 0.5rem;
 }
 .card__title {
   color: hsl(218deg, 44%, 22%);
-  margin-top: 1rem;
-  padding: 0 1rem;
+  margin: 1rem;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -37,7 +37,7 @@ body {
   font-weight: 400;
   color: hsl(220deg, 15%, 55%);
   text-align: center;
-  padding: 1.25rem;
+  padding: 1rem;
   font-size: 1rem;
   margin: 0;
 }
@@ -45,7 +45,6 @@ body {
 .attribution {
   color: hsl(218deg, 44%, 22%);
   font-size: 0.75rem;
-  text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0.25rem;
 }/*# sourceMappingURL=main.css.map */
