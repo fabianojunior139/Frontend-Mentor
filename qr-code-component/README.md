@@ -1,4 +1,4 @@
-## 💼 NFT Card Component
+## 💼 QR Card Component
 
 <p>This challenge was made with HTML and SASS</p>
 
