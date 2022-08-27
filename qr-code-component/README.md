@@ -1,6 +1,6 @@
 ## 💼 QR Card Component
 
-<p>This challenge was made with HTML and SASS</p>
+<p>This challenge was made with HTML and SASS.</p>
 
 <div align="center"><img src="https://github.com/fabianojunior1/Frontend-Mentor/blob/main/qr-code-component/images/qr-code-card-component.jpg" width="80%"></div>
 
