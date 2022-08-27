@@ -1,0 +1,20 @@
+// primary colors variables 
+$color-VeryDarkBlue: hsl(233, 47%, 7%);
+$color-DesaturatedBlue: hsl(244, 38%, 16%);
+$color-Violet: hsl(277, 64%, 61%);
+
+//neutral colors variables
+$color-White: hsl(0, 0%, 100%);
+$color-SlightlyMain: hsla(0, 0%, 100%, 0.75);
+$color-SlightlyStat:  hsla(0, 0%, 100%, 0.6); 
+
+//fonts variables 
+$font-Inter: 'Inter', sans-serif;
+$font-LexentDeca: 'Lexend Deca', sans-serif;
+
+@mixin flex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}

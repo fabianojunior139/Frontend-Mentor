@@ -1,0 +1,18 @@
+@import './variables';
+
+body {
+    @include flex();
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: $color-VeryDarkBlue;
+    font-family: $font-Inter;
+    color: $color-White;
+    font-size: 15px;
+    text-align: center;
+}
+
+p, h1 {
+    margin: 0;
+    padding: 0;
+}

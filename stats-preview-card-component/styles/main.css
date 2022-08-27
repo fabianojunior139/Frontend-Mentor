@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: hsl(233deg, 47%, 7%);
+  font-family: "Inter", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 15px;
+  text-align: center;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: hsl(244deg, 38%, 16%);
+  max-width: 300px;
+  border-radius: 0.5rem;
+  margin: 1.25rem;
+}
+.card__image {
+  display: block;
+  max-width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+  filter: opacity(0.5) drop-shadow(0 0 0 hsl(277deg, 64%, 61%));
+}
+.card__content {
+  padding: 1.5rem;
+}
+.card__title {
+  padding: 0 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card__title strong {
+  color: hsl(277deg, 64%, 61%);
+}
+.card__description {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  padding: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+.card__big-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.card__informations-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 0.75rem;
+}
+.card__numbers {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+.card__numbers-description {
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  color: hsla(0deg, 0%, 100%, 0.6);
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+@media (min-width: 850px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 800px;
+    max-height: 300px;
+    margin: 1rem;
+    text-align: left;
+  }
+  .card__image {
+    width: 50%;
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  .card__content {
+    padding: 3rem;
+  }
+  .card__title {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  .card__description {
+    font-size: 0.75rem;
+    padding: 1rem 0;
+  }
+  .card__big-numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-right: 2.5rem;
+  }
+  .card__informations-numbers {
+    padding: 0;
+  }
+  .card__numbers {
+    font-size: 1rem;
+  }
+}
+.attribution {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}/*# sourceMappingURL=main.css.map */
