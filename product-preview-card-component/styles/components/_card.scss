@@ -11,6 +11,7 @@
         display: block;
         max-width: 100%;
         border-radius: 0.75rem 0.75rem 0 0;
+        flex-shrink: 0;
     }
 
     &__image-desktop {
@@ -91,6 +92,7 @@
             display: block;
             max-width: 50%;
             border-radius: 0.75rem 0 0 0.75rem;
+            flex-shrink: 0;
         }
 
         &__image-mobile {

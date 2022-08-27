@@ -25,6 +25,7 @@ body {
   display: block;
   max-width: 100%;
   border-radius: 0.75rem 0.75rem 0 0;
+  flex-shrink: 0;
 }
 .card__image-desktop {
   display: none;
@@ -95,6 +96,7 @@ body {
     display: block;
     max-width: 50%;
     border-radius: 0.75rem 0 0 0.75rem;
+    flex-shrink: 0;
   }
   .card__image-mobile {
     display: none;
