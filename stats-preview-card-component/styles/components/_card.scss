@@ -2,7 +2,7 @@
 
 .card {
     background-color: $color-DesaturatedBlue;
-    max-width: 300px;
+    max-width: 18.75rem;
     border-radius: 0.5rem;
     margin: 1.25rem;
 
@@ -62,12 +62,12 @@
 
 }
 
-@media (min-width: 850px) {
+@media (min-width: 53.125rem) {
     .card {
         display: flex;
         flex-direction: row-reverse;
-        max-width: 800px;
-        max-height: 300px;
+        max-width: 50rem;
+        max-height: 18.75rem;
         margin: 1rem;
         text-align: left;
 
@@ -75,6 +75,7 @@
             width: 50%;
             border-radius: 0 0.5rem 0.5rem 0;
             flex-shrink: 0;
+            object-fit: cover;
         }
 
         &__content {

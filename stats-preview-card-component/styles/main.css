@@ -20,7 +20,7 @@ p, h1 {
 
 .card {
   background-color: hsl(244deg, 38%, 16%);
-  max-width: 300px;
+  max-width: 18.75rem;
   border-radius: 0.5rem;
   margin: 1.25rem;
 }
@@ -75,12 +75,12 @@ p, h1 {
   font-weight: 400;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 53.125rem) {
   .card {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 800px;
-    max-height: 300px;
+    max-width: 50rem;
+    max-height: 18.75rem;
     margin: 1rem;
     text-align: left;
   }
@@ -88,6 +88,8 @@ p, h1 {
     width: 50%;
     border-radius: 0 0.5rem 0.5rem 0;
     flex-shrink: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .card__content {
     padding: 3rem;
