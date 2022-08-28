@@ -176,7 +176,7 @@ body {
     background-size: cover;
   }
 }
-@media (min-width: 980px) {
+@media (min-width: 61.25rem) {
   .container {
     padding: 4rem;
     padding-bottom: 0;
