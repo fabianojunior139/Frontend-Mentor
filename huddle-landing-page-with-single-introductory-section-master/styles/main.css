@@ -58,7 +58,7 @@ body {
   color: hsl(0deg, 0%, 100%);
   font-weight: 400;
   background-color: hsl(257deg, 40%, 49%);
-  background-image: url(../../images/bg-mobile.svg);
+  background-image: url(../images/bg-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   text-align: center;
@@ -181,70 +181,70 @@ body {
     padding: 4rem;
     padding-bottom: 0;
   }
-  .header {
+  .container .header {
     margin-bottom: 0;
   }
-  .header__logo {
+  .container .header__logo {
     min-width: 13.5rem;
   }
-  .main {
-    align-items: flex-start !important;
-    justify-content: space-between !important;
-    flex-direction: row !important;
+  .container .main {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 4rem;
     width: 100%;
     gap: 2rem;
   }
-  .main__mockup {
+  .container .main__mockup {
     flex-direction: column;
     justify-content: center;
-    max-width: 50rem !important;
-    margin: 0 !important;
+    max-width: 50rem;
+    margin: 0;
   }
-  .main__image {
-    min-width: 100% !important;
-    padding: 0 !important;
+  .container .main__image {
+    min-width: 100%;
+    padding: 0;
   }
-  .main__content {
+  .container .main__content {
     max-width: 32.75rem;
     text-align: left;
     display: flex;
     flex-direction: column;
   }
-  .main__title {
-    margin-top: 1.5rem !important;
-    font-size: 2.5rem !important;
-    line-height: 3.75rem !important;
+  .container .main__title {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
   }
-  .main__description {
+  .container .main__description {
     font-size: 1.125rem;
-    line-height: 1.75rem !important;
+    line-height: 1.75rem;
   }
-  .main__button {
-    margin: 0 !important;
-    padding: 0.8rem !important;
-    font-size: 1.125rem !important;
+  .container .main__button {
+    margin: 0;
+    padding: 0.8rem;
+    font-size: 1.125rem;
   }
-  .footer__social {
-    margin: 0.5rem 0.5rem 0 auto !important;
-    width: 9.5rem !important;
+  .container .footer__social {
+    margin: 0.5rem 0.5rem 0 auto;
+    width: 9.5rem;
   }
-  .footer__social-group {
-    width: 2.5rem !important;
-    height: 2.5rem !important;
+  .container .footer__social-group {
+    width: 2.5rem;
+    height: 2.5rem;
   }
-  .footer__attribution {
-    font-size: 0.9rem !important;
+  .container .footer__attribution {
+    font-size: 0.9rem;
   }
-  .footer__attribution a {
-    color: hsl(0deg, 0%, 100%) !important;
+  .container .footer__attribution a {
+    color: hsl(0deg, 0%, 100%);
     font-weight: 700;
   }
 }
 @media only screen and (min-width: 87.5rem) {
   body {
-    background-image: url(../../images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
     background-size: contain;
   }
 }/*# sourceMappingURL=main.css.map */
