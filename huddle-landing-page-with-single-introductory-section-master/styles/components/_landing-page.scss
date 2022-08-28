@@ -1,0 +1,222 @@
+@import '../abstract/variables';
+
+.container {
+    width: 100%;
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+
+    .header {
+        width: 100%;
+        align-self: left;
+        text-align: left;
+        margin-bottom: 1.75rem;
+        cursor: pointer;
+
+        &__logo {
+            width: 8rem;
+        }
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &__mockup {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        &__image {
+            width: 100%;
+            max-width: 25rem;
+            padding: 2rem 0;
+            margin: 0 auto;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            margin: 1rem 0;
+        }
+
+        &__description {
+            margin-bottom: 1.5rem;
+            letter-spacing: 0px;
+            line-height: 1.5rem;
+            font-family: $font-OpenSans;
+        }
+
+        &__button {
+            padding: 0.69rem 0.5rem;
+            width: 12.5rem;
+            border-radius: 2rem;
+            color: $color-Violet;
+            font-family: $font-Poppins;
+            font-weight: 400;
+            font-size: 0.75rem;
+            background-color: $color-White;
+            border: none;
+            cursor: pointer;
+            display: block;
+            box-shadow: 2px 2px 5px $color-DarkViolet;
+            margin: 0 auto;
+            margin-bottom: 4rem;
+            transition: 0.25s;
+
+            &:hover {
+                background-color: $color-SoftMagenta;
+                color: $color-White;
+                font-weight: 600;
+            }
+        }
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        &__social {
+            width: 6.5rem;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+
+            &-group {
+                width: 28px;
+                height: 28px;
+                color: $color-White;
+                border: 1px solid $color-White;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.25s;
+
+                &:hover {
+                    color: $color-SoftMagenta;
+                    border: 1px solid $color-SoftMagenta;
+                }
+            }
+
+            &-icon {
+                width: 1rem;
+                height: 1rem;
+            }
+
+        }
+
+        &__attribution {
+            font-size: 0.6rem;
+            margin-top: 3rem;
+            text-decoration: none;
+
+            a {
+                color: $color-SoftMagenta;
+            }
+        }
+
+    }
+
+}
+
+@media (min-width: 50rem) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media (min-width: 980px) {
+    .container {
+        padding: 4rem;
+        padding-bottom: 0;
+    }
+
+    .header {
+        margin-bottom: 0;
+
+        &__logo {
+            min-width: 13.5rem;
+        }
+    }
+
+    .main {
+        align-items: flex-start !important;
+        justify-content: space-between !important;
+        flex-direction: row !important;
+        justify-content: space-between;
+        margin-top: 4rem;
+        width: 100%;
+        gap: 2rem;
+
+        &__mockup {
+            flex-direction: column;
+            justify-content: center;
+            max-width: 50rem !important;
+            margin: 0 !important;
+        }
+
+        &__image {
+            min-width: 100% !important;
+            padding: 0 !important;
+            
+        }
+
+        &__content {
+            max-width: 32.75rem;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-top: 1.5rem !important;
+            font-size: 2.5rem !important;
+            line-height: 3.75rem !important;
+        }
+
+        &__description {
+            font-size: 1.125rem;
+            line-height: 1.75rem !important;
+        }
+
+        &__button {
+            margin: 0 !important;
+            padding: 0.8rem !important;
+            font-size: 1.125rem !important;
+        }
+    }
+
+    .footer {
+
+        &__social {
+            margin: 0.5rem 0.5rem 0 auto !important;
+            width: 9.5rem !important;
+
+            &-group {
+                width: 2.5rem !important;
+                height: 2.5rem !important;
+            }
+        }
+
+        &__attribution {
+            font-size: 0.9rem !important;
+
+            a {
+                color: $color-White !important;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 87.5rem) {
+    body {
+        background-image: url("../../images/bg-desktop.svg");
+        background-size: contain;
+    }
+}
