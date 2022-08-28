@@ -1,4 +1,4 @@
-## 💼 Huddle Landing Page With Single Introductory Section Master
+## 💼 Responsive Huddle Landing Page With Single Introductory Section Master
 
 <p>This challenge was made with HTML and CSS w/ SASS</p>
 
