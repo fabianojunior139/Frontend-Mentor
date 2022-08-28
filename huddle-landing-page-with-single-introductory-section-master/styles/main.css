@@ -58,7 +58,7 @@ body {
   color: hsl(0deg, 0%, 100%);
   font-weight: 400;
   background-color: hsl(257deg, 40%, 49%);
-  background-image: url("../../images/bg-mobile.svg");
+  background-image: url("../images/bg-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
   text-align: center;
