@@ -2,10 +2,10 @@
 
 <p>This challenge was made with HTML and CSS w/ SASS</p>
 
-<div align="center"><img src="https://github.com/fabianojunior1/Frontend-Mentor/blob/main/stats-preview-card-component/images/stats-preview-component.jpg"></div>
+<img src="https://github.com/fabianojunior1/Frontend-Mentor/blob/main/3-column-preview-card-component/design/3-column-preview-card-component.gif">
 
 ## ⚙ Demo 
-https://fabianojunior1.github.io/Frontend-Mentor/stats-preview-card-component/
+https://fabianojunior1.github.io/Frontend-Mentor/3-column-preview-card-component/
 
 ## 🤝🏻 Credits 
-<p>Challenge proposed by <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">Frontend Mentor</a>.</p>
+<p>Challenge proposed by <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">Frontend Mentor</a>.</p>
