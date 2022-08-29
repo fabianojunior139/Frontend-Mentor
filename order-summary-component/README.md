@@ -2,7 +2,7 @@
 
 <p>This challenge was made with HTML and SASS.</p>
 
-<div align="center"><img src="https://github.com/fabianojunior1/Frontend-Mentor/blob/main/order-summary-component/design/desktop-preview.jpg"></div>
+<img src="https://github.com/fabianojunior1/Frontend-Mentor/blob/main/order-summary-component/design/Order-Sumary.jpg">
 
 ## ⚙ Demo 
 https://fabianojunior1.github.io/Frontend-Mentor/order-summary-component/
