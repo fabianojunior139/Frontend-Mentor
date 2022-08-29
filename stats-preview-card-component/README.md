@@ -2,7 +2,7 @@
 
 <p>This challenge was made with HTML, SASS and JavaScript</p>
 
-<div align="center"><img src="https://github.com/fabianojunior1/Frontend-Mentor/blob/main/stats-preview-card-component/images/stats-preview-component.jpg"></div>
+<img src="https://github.com/fabianojunior1/Frontend-Mentor/blob/main/stats-preview-card-component/design/stats-preview-card-component.gif">
 
 ## ⚙ Demo 
 https://fabianojunior1.github.io/Frontend-Mentor/stats-preview-card-component/
