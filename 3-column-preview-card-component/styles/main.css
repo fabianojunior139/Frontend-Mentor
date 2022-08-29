@@ -1,0 +1,204 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 3rem;
+  width: 100%;
+}
+.card__sedan {
+  max-width: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(31deg, 77%, 52%);
+  padding: 2.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.card__suvs {
+  max-width: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(184deg, 100%, 22%);
+  padding: 2.5rem;
+}
+.card__luxury {
+  max-width: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179deg, 100%, 13%);
+  padding: 2.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.card__icon {
+  width: 3rem;
+}
+.card__title {
+  font-weight: 600;
+  margin-top: 1.875rem;
+  font-size: 1.875rem;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0deg, 0%, 95%);
+  text-transform: uppercase;
+}
+.card__description {
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+.card__button-sedan {
+  display: block;
+  min-width: 8.5rem;
+  max-width: 9rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  background-color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsl(31deg, 77%, 52%);
+  border-radius: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.25s;
+  border: 1px solid hsl(0deg, 0%, 95%);
+}
+.card__button-sedan:hover {
+  background-color: hsl(31deg, 77%, 52%);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.card__button-suvs {
+  display: block;
+  min-width: 8.5rem;
+  max-width: 9rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  background-color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsl(184deg, 100%, 22%);
+  border-radius: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.25s;
+  border: 1px solid hsl(0deg, 0%, 95%);
+}
+.card__button-suvs:hover {
+  background-color: hsl(184deg, 100%, 22%);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.card__button-luxury {
+  display: block;
+  min-width: 8.5rem;
+  max-width: 9rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  background-color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsl(179deg, 100%, 13%);
+  border-radius: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.25s;
+  border: 1px solid hsl(0deg, 0%, 95%);
+}
+.card__button-luxury:hover {
+  background-color: hsl(179deg, 100%, 13%);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+.footer {
+  font-size: 0.75rem;
+  color: hsl(184deg, 100%, 22%);
+}
+.footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: hsl(179deg, 100%, 13%);
+}
+
+@media (min-width: 60rem) {
+  .card {
+    flex-direction: row;
+  }
+  .card__sedan {
+    border-radius: 0.5rem 0 0 0.5rem;
+    min-height: 27.5rem;
+  }
+  .card__suvs {
+    min-height: 27.5rem;
+  }
+  .card__luxury {
+    border-radius: 0 0.5rem 0.5rem 0;
+    min-height: 27.5rem;
+  }
+  .card__icon {
+    width: 4rem;
+  }
+  .card__title {
+    font-size: 2.5rem;
+  }
+  .card__description {
+    margin-bottom: 2.5rem;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */

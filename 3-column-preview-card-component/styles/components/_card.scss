@@ -1,0 +1,105 @@
+@import '../abstract/variables';
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 3rem;
+    width: 100%;
+
+    &__sedan {
+        @include card($color-BrightOrange);
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    &__suvs {
+        @include card($color-Cyan);
+    }
+
+    &__luxury {
+        @include card($color-DarkCyan);
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    &__icon {
+        width: 3rem;
+    }
+
+    &__title {
+        font-weight: 600;
+        margin-top: 1.875rem;
+        font-size: 1.875rem;
+        font-family: $font-BigShouldersDisplay;
+        color: $color-LightGray;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-top: 1.25rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.25rem;
+        font-weight: 400;
+    }
+
+    &__button-sedan {
+        @include button($color-BrightOrange)
+    }
+
+    &__button-suvs {
+        @include button($color-Cyan)
+    }
+
+    &__button-luxury {
+        @include button($color-DarkCyan)
+    }
+}
+
+.footer {
+    font-size: 0.75rem;
+    color: $color-Cyan;
+
+    a {
+        text-decoration: none;
+        font-weight: 600;
+        color: $color-DarkCyan;
+    }
+}
+
+@media (min-width: 60rem) {
+    .card {
+        flex-direction: row;
+
+        &__sedan {
+            border-radius: 0.5rem 0 0 0.5rem;
+            min-height: 27.5rem;
+        }
+        
+        &__suvs {
+            min-height: 27.5rem;
+        }
+
+        &__luxury {
+            border-radius: 0 0.5rem 0.5rem 0;
+            min-height: 27.5rem;
+        }
+
+        &__icon {
+            width: 4rem;
+        }
+
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__description {
+            margin-bottom: 2.5rem;
+        }
+    
+        
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+}

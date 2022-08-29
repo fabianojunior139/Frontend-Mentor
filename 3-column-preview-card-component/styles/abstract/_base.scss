@@ -1,0 +1,43 @@
+@import './variables';
+
+body {
+    background-color: $color-LightGray;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: $font-LexendDeca;
+    color: $color-White;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin card($background-color) {
+    max-width: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+    padding: 2.5rem;
+}
+
+@mixin button($font-color) {
+    display: block;
+    min-width: 8.5rem;
+    max-width: 9rem;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    background-color: $color-White;
+    color: $font-color;
+    border-radius: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.25s;
+    border: 1px solid $color-LightGray;
+
+    &:hover {
+        background-color: $font-color;
+        color: $color-White;
+    }
+}
