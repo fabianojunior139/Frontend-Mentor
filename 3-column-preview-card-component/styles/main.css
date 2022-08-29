@@ -115,7 +115,7 @@ body {
   max-width: 9rem;
   text-align: center;
   padding: 1rem 1.5rem;
-  background-color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(0deg, 0%, 100%);
   color: hsl(31deg, 77%, 52%);
   border-radius: 2rem;
   text-decoration: none;
@@ -125,7 +125,7 @@ body {
 }
 .card__button-sedan:hover {
   background-color: hsl(31deg, 77%, 52%);
-  color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsl(0deg, 0%, 100%);
 }
 .card__button-suvs {
   display: block;
@@ -133,7 +133,7 @@ body {
   max-width: 9rem;
   text-align: center;
   padding: 1rem 1.5rem;
-  background-color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(0deg, 0%, 100%);
   color: hsl(184deg, 100%, 22%);
   border-radius: 2rem;
   text-decoration: none;
@@ -143,7 +143,7 @@ body {
 }
 .card__button-suvs:hover {
   background-color: hsl(184deg, 100%, 22%);
-  color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsl(0deg, 0%, 100%);
 }
 .card__button-luxury {
   display: block;
@@ -151,7 +151,7 @@ body {
   max-width: 9rem;
   text-align: center;
   padding: 1rem 1.5rem;
-  background-color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(0deg, 0%, 100%);
   color: hsl(179deg, 100%, 13%);
   border-radius: 2rem;
   text-decoration: none;
@@ -161,7 +161,7 @@ body {
 }
 .card__button-luxury:hover {
   background-color: hsl(179deg, 100%, 13%);
-  color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsl(0deg, 0%, 100%);
 }
 
 .footer {
@@ -180,14 +180,14 @@ body {
   }
   .card__sedan {
     border-radius: 0.5rem 0 0 0.5rem;
-    min-height: 30rem;
+    min-height: 27.5rem;
   }
   .card__suvs {
-    min-height: 30rem;
+    min-height: 27.5rem;
   }
   .card__luxury {
     border-radius: 0 0.5rem 0.5rem 0;
-    min-height: 30rem;
+    min-height: 27.5rem;
   }
   .card__icon {
     width: 4rem;
@@ -196,7 +196,11 @@ body {
     font-size: 2.5rem;
   }
   .card__description {
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.7rem;
+  }
+  .card__button {
+    margin-top: 2rem;
   }
   .footer {
     font-size: 1rem;
