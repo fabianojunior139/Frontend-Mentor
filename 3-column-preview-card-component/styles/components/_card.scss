@@ -72,16 +72,16 @@
 
         &__sedan {
             border-radius: 0.5rem 0 0 0.5rem;
-            min-height: 27.5rem;
+            min-height: 30rem;
         }
-        
+
         &__suvs {
-            min-height: 27.5rem;
+            min-height: 30rem;
         }
 
         &__luxury {
             border-radius: 0 0.5rem 0.5rem 0;
-            min-height: 27.5rem;
+            min-height: 30rem;
         }
 
         &__icon {
@@ -95,8 +95,6 @@
         &__description {
             margin-bottom: 2.5rem;
         }
-    
-        
     }
 
     .footer {
